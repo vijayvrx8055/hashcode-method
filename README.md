@@ -9,4 +9,4 @@
 6. default implementation of hashCode() method is not provided in Object class
 7. It is a native method (made in C/C++)
 8. Until we override the hashCode method in a class, it may or may not generate same hash code
-9. After overriding hashCode method in class, we can give our own implementation for hashCode() to save the object while using any collection based on hash code.
+9. After overriding hashCode method in class, we can give our own implementation for hashCode() to save the object => then we can use any collection which stores data based on hash code.
